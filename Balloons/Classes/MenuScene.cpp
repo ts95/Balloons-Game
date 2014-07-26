@@ -29,8 +29,7 @@ bool MenuScene::init()
    }
    
    auto keyboardEventListener = EventListenerKeyboard::create();
-   keyboardEventListener->onKeyReleased = [this](EventKeyboard::KeyCode keyCode,
-												 cocos2d::Event *event) {
+   keyboardEventListener->onKeyReleased = [this](EventKeyboard::KeyCode keyCode, cocos2d::Event *event) {
 	  // Back button on Android
 	  if (keyCode == EventKeyboard::KeyCode::KEY_ESCAPE) {
 		 Util::quit();

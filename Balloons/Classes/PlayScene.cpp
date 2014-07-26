@@ -21,17 +21,15 @@ Scene * PlayScene::createScene()
 
 bool PlayScene::init()
 {
-    if (!Layer::init()) {
+	if (!LayerColor::initWithColor(Color4B(50, 50, 255, 255))) {
         return false;
     }
 	
-	// Initialize member variables
-	m_score = 0;
+	setColor(Color3B(50, 50, 200));
 	
 	// Events
 	auto touchEventListener = EventListenerTouchAllAtOnce::create();
-	touchEventListener->onTouchesBegan = [this](const std::vector<Touch *> &touches,
-									Event *event) {
+	touchEventListener->onTouchesBegan = [this](const std::vector<Touch *> &touches, Event *event) {
 		// Balloon touch events
 		std::for_each(touches.begin(), touches.end(), [this](Touch *touch) {
 			enumerateChildren(BALLOON_TAG_NAME, [this, touch](Node *node) -> bool {
@@ -48,8 +46,7 @@ bool PlayScene::init()
 		->addEventListenerWithSceneGraphPriority(touchEventListener, this);
 
 	auto keyboardEventListener = EventListenerKeyboard::create();
-	keyboardEventListener->onKeyReleased = [this](EventKeyboard::KeyCode keyCode,
-												  cocos2d::Event *event) {
+	keyboardEventListener->onKeyReleased = [this](EventKeyboard::KeyCode keyCode, cocos2d::Event *event) {
 		// Back button on Android
 		if (keyCode == EventKeyboard::KeyCode::KEY_ESCAPE) {
 			Director::getInstance()->popScene();
@@ -59,14 +56,16 @@ bool PlayScene::init()
 		->getEventDispatcher()
 		->addEventListenerWithSceneGraphPriority(keyboardEventListener, this);
 	
+	startGame();
+	
     return true;
 }
 
 int PlayScene::getRisingSpeed()
 {
-	float speed = (-0.02 * m_score) + 1.5;
-	if (speed < 0.55) {
-		speed = 0.55;
+	float speed = (-0.1 * m_score) + 1.5;
+	if (speed < 0.8) {
+		speed = 0.8;
 	}
 	return speed;
 }
@@ -74,29 +73,54 @@ int PlayScene::getRisingSpeed()
 int PlayScene::getLayers()
 {
 	int layers = 1;
-	
-	if (m_score > 30) {
+	if (m_score > 20) {
 		layers = Util::random(1, 3);
-	} else if (m_score > 20) {
+	} else if (m_score > 10) {
 		layers = Util::random(1, 2);
 	}
-	
-	return layers;
+	return 3;//layers;
 }
 
-void PlayScene::spawnBalloon()
+void PlayScene::incrementScore()
 {
-	auto balloon = Balloon::create(getRisingSpeed(), getLayers());
-	addChild(balloon);
-}
-
-void PlayScene::incrementScore(Balloon *balloon)
-{
-	m_score += balloon->getLayers();
+	m_score++;
 }
 
 void PlayScene::balloonPopped(Balloon *balloon)
 {
-	incrementScore(balloon);
+	incrementScore();
 	balloon->pop();
+}
+
+void PlayScene::startGame()
+{
+	m_score = 0;
+	m_isGameRunning = true;
+	
+	auto spawnBalloon = CallFunc::create([this]() {
+		auto balloon = Balloon::create(getRisingSpeed(), getLayers());
+		
+		auto detectLostBalloon = CallFunc::create([this, balloon]() {
+			if (balloon->getPositionY() > Director::getInstance()->getVisibleSize().height + 100) {
+				balloon->removeFromParent();
+				
+				if (m_isGameRunning) {
+					//gameover();
+				}
+			}
+		});
+		
+		balloon->runAction(detectLostBalloon);
+		addChild(balloon);
+	});
+	
+	auto spawnBalloons = RepeatForever::create(Sequence::create(spawnBalloon, DelayTime::create(1.5), NULL));
+	runAction(spawnBalloons);
+}
+
+void PlayScene::gameover()
+{
+	m_isGameRunning = false;
+	
+	
 }

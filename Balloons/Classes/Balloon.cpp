@@ -7,14 +7,9 @@
 //
 
 #include "Balloon.h"
+#include "Util.h"
 
 USING_NS_CC;
-
-#define POP_SOUND_PATH "BalloonPop.mp3"
-
-#define BLUE_TEXTURE_PATH "BalloonBlue.png"
-#define RED_TEXTURE_PATH "BalloonRed.png"
-#define BLACK_TEXTURE_PATH "BalloonBlack.png"
 
 Balloon * Balloon::create(int risingSpeed, int layers)
 {
@@ -30,16 +25,26 @@ Balloon * Balloon::create(int risingSpeed, int layers)
 Balloon::Balloon(int risingSpeed, int layers)
 : m_risingSpeed(risingSpeed), m_layers(layers)
 {
-	//CocosDenshion::SimpleAudioEngine::getInstance()->preloadEffect(POP_SOUND_PATH);
+	CocosDenshion::SimpleAudioEngine::getInstance()->preloadEffect(BALLOON_POP_SOUND_PATH);
 	
 	setName(BALLOON_TAG_NAME);
 	
-	setTextureForLayer();
+	initWithFile(Balloon::getTexturePath(m_layers));
+	
+	setScale(0.25);
 	
 	ccBezierConfig bezier;
 	bezier.controlPoint_1 = Vec2(-50, 150);
 	bezier.controlPoint_2 = Vec2(+50, 150 * 2);
 	bezier.endPosition = Vec2(0, 450);
+	
+	float x = Util::random(100, Director::getInstance()->getVisibleSize().width - 100);
+	Point initialPosition(x, -10);
+	setPosition(initialPosition);
+	
+	setOpacity(0);
+	
+	runAction(FadeIn::create(0.5));
 	
 	auto sequence = Sequence::create(BezierBy::create(risingSpeed, bezier), NULL);
     auto action = RepeatForever::create(sequence);
@@ -58,28 +63,13 @@ int Balloon::getLayers()
 
 void Balloon::pop()
 {
-	//CocosDenshion::SimpleAudioEngine::getInstance()->playEffect(POP_SOUND_PATH);
+	CocosDenshion::SimpleAudioEngine::getInstance()->playEffect(BALLOON_POP_SOUND_PATH);
 	
 	m_layers--;
 	
 	if (m_layers == 0) {
 		removeFromParent();
 	} else {
-		setTextureForLayer();
-	}
-}
-
-void Balloon::setTextureForLayer()
-{
-	switch (m_layers) {
-		case 1:
-			setTexture(BLUE_TEXTURE_PATH);
-			break;
-		case 2:
-			setTexture(RED_TEXTURE_PATH);
-			break;
-		default:
-			setTexture(BLACK_TEXTURE_PATH);
-			break;
+		setTexture(Balloon::getTexturePath(m_layers));
 	}
 }

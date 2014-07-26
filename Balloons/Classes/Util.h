@@ -15,16 +15,11 @@ namespace Util
 {
     USING_NS_CC;
     
-    inline Size visibleSize()
-    {
-        return Director::getInstance()->getVisibleSize();
-    }
-    
     inline void quit()
     {
         Director::getInstance()->end();
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-        exit(0);
+		exit(0);
 #endif
     }
 	

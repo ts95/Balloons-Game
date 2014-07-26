@@ -12,9 +12,11 @@
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
 
-// 1 layer: blue
-// 2 layers: red
-// 3 or more layers: black
+#define BALLOON_POP_SOUND_PATH "BalloonPop.mp3"
+
+#define BALLOON_BLUE_TEXTURE_PATH "BalloonBlue.png"
+#define BALLOON_RED_TEXTURE_PATH "BalloonRed.png"
+#define BALLOON_BLACK_TEXTURE_PATH "BalloonBlack.png"
 
 #define BALLOON_TAG_NAME "Balloon"
 
@@ -22,7 +24,7 @@ class Balloon : public cocos2d::Sprite
 {
 public:
     static Balloon * create(int risingSpeed, int layers);
-
+	
 	/**
 	 * Returns the rate at which the balloon is rising upwards.
 	 */
@@ -38,13 +40,20 @@ public:
 	 * The balloon is removed once all the layers are popped.
 	 */
 	void pop();
-	
-	/**
-	 * Sets the texture of the balloon based on the current layer.
-	 */
-	void setTextureForLayer();
 
 private:
+	inline static std::string getTexturePath(int layers)
+	{
+		switch (layers) {
+			case 1:
+				return BALLOON_BLUE_TEXTURE_PATH;
+			case 2:
+				return BALLOON_RED_TEXTURE_PATH;
+			default:
+				return BALLOON_BLACK_TEXTURE_PATH;
+		}
+	}
+	
     Balloon(int risingSpeed, int layers);
 	
 	int m_risingSpeed, m_layers;

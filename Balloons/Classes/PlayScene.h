@@ -12,7 +12,7 @@
 #include "cocos2d.h"
 #include "Balloon.h"
 
-class PlayScene : public cocos2d::Layer
+class PlayScene : public cocos2d::LayerColor
 {
 public:
     static cocos2d::Scene *createScene();
@@ -26,23 +26,28 @@ public:
 	int getLayers();
 	
 	/**
-	 * Spawn a new balloon into the scene.
+	 * Increments the score.
 	 */
-	void spawnBalloon();
-	
-	/**
-	 * Increments the score for a given balloon.
-	 * Balloons with multiple layers yield more points.
-	 */
-	void incrementScore(Balloon *balloon);
+	void incrementScore();
 	
 	/**
 	 * Gets called when a balloon is popped.
 	 */
 	void balloonPopped(Balloon *balloon);
+	
+	/**
+	 * Starts the game. The game ends when gameover() is called.
+	 */
+	void startGame();
+	
+	/**
+	 * Gets called when the game is lost.
+	 */
+	void gameover();
     
 private:
 	int m_score;
+	bool m_isGameRunning;
 };
 
 #endif /* defined(__Balloons__PlayScene__) */

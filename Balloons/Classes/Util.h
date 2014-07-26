@@ -30,7 +30,7 @@ namespace Util
 	
 	inline int random(int low, int high)
 	{
-		return (int)(randomf() * (high - low) + low);
+		return (int)(randomf() * (high - low + 1) + low);
 	}
 }
 

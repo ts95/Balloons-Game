@@ -11,7 +11,7 @@
 
 USING_NS_CC;
 
-Balloon * Balloon::create(int risingSpeed, int layers)
+Balloon * Balloon::create(float risingSpeed, int layers)
 {
 	auto ret = new Balloon(risingSpeed, layers);
 	if (ret) {
@@ -22,7 +22,7 @@ Balloon * Balloon::create(int risingSpeed, int layers)
 	return ret;
 }
 
-Balloon::Balloon(int risingSpeed, int layers)
+Balloon::Balloon(float risingSpeed, int layers)
 : m_risingSpeed(risingSpeed), m_layers(layers)
 {
 	CocosDenshion::SimpleAudioEngine::getInstance()->preloadEffect(BALLOON_POP_SOUND_PATH);
@@ -33,11 +33,6 @@ Balloon::Balloon(int risingSpeed, int layers)
 	
 	setScale(0.25);
 	
-	ccBezierConfig bezier;
-	bezier.controlPoint_1 = Vec2(-50, 150);
-	bezier.controlPoint_2 = Vec2(+50, 150 * 2);
-	bezier.endPosition = Vec2(0, 450);
-	
 	float x = Util::random(100, Director::getInstance()->getVisibleSize().width - 100);
 	Point initialPosition(x, -10);
 	setPosition(initialPosition);
@@ -46,12 +41,18 @@ Balloon::Balloon(int risingSpeed, int layers)
 	
 	runAction(FadeIn::create(0.5));
 	
+	ccBezierConfig bezier;
+	bezier.controlPoint_1 = Vec2(-50, 150);
+	bezier.controlPoint_2 = Vec2(+50, 150 * 2);
+	bezier.endPosition = Vec2(0, 450);
+	
 	auto sequence = Sequence::create(BezierBy::create(risingSpeed, bezier), NULL);
     auto action = RepeatForever::create(sequence);
+	
     runAction(action);
 }
 
-int Balloon::getRisingSpeed()
+float Balloon::getRisingSpeed()
 {
 	return m_risingSpeed;
 }

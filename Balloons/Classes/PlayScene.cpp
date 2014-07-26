@@ -11,6 +11,10 @@
 
 USING_NS_CC;
 
+#define SPAWN_BALLOONS_ACTION_TAG 0
+
+#define SCORE_LABEL "ScoreLabel"
+
 Scene * PlayScene::createScene()
 {
     auto scene = Scene::create();
@@ -49,41 +53,59 @@ bool PlayScene::init()
 	keyboardEventListener->onKeyReleased = [this](EventKeyboard::KeyCode keyCode, cocos2d::Event *event) {
 		// Back button on Android
 		if (keyCode == EventKeyboard::KeyCode::KEY_ESCAPE) {
-			Director::getInstance()->popScene();
 		}
 	};
 	Director::getInstance()
 		->getEventDispatcher()
 		->addEventListenerWithSceneGraphPriority(keyboardEventListener, this);
 	
+	auto scoreLabel = Label::create();
+	scoreLabel->setName(SCORE_LABEL);
+	scoreLabel->setSystemFontSize(100);
+	scoreLabel->setPosition(Director::getInstance()->getVisibleSize().width / 2, Director::getInstance()->getVisibleSize().height - 100);
+	
+	addChild(scoreLabel);
+	
 	startGame();
 	
     return true;
 }
 
-int PlayScene::getRisingSpeed()
+float PlayScene::getRisingSpeed()
 {
-	float speed = (-0.1 * m_score) + 1.5;
-	if (speed < 0.8) {
-		speed = 0.8;
+	float risingSpeed = (-0.01 * m_score) + 1.5;
+	if (risingSpeed < 0.6) {
+		risingSpeed = 0.6;
 	}
-	return speed;
+	risingSpeed -= Util::random(0, 2) / 10.0;
+	return risingSpeed;
 }
 
 int PlayScene::getLayers()
 {
 	int layers = 1;
-	if (m_score > 20) {
+	
+	if (m_score >= 20) {
 		layers = Util::random(1, 3);
-	} else if (m_score > 10) {
+	} else if (m_score >= 10) {
 		layers = Util::random(1, 2);
 	}
-	return 3;//layers;
+	
+	return layers;
 }
 
 void PlayScene::incrementScore()
 {
 	m_score++;
+	auto scoreLabel = (Label *) getChildByName(SCORE_LABEL);
+	scoreLabel->setString(StringUtils::format("%d", m_score));
+}
+
+void PlayScene::resetScore()
+{
+	m_score = 0;
+	auto scoreLabel = (Label *) getChildByName(SCORE_LABEL);
+	scoreLabel->setString(StringUtils::format("%d", m_score));
 }
 
 void PlayScene::balloonPopped(Balloon *balloon)
@@ -94,27 +116,35 @@ void PlayScene::balloonPopped(Balloon *balloon)
 
 void PlayScene::startGame()
 {
-	m_score = 0;
+	resetScore();
+	
 	m_isGameRunning = true;
 	
 	auto spawnBalloon = CallFunc::create([this]() {
 		auto balloon = Balloon::create(getRisingSpeed(), getLayers());
 		
 		auto detectLostBalloon = CallFunc::create([this, balloon]() {
-			if (balloon->getPositionY() > Director::getInstance()->getVisibleSize().height + 100) {
+			float screenHeight = Director::getInstance()->getVisibleSize().height;
+			if (balloon->getPositionY() > screenHeight - 30) {
 				balloon->removeFromParent();
 				
 				if (m_isGameRunning) {
-					//gameover();
+					gameover();
 				}
 			}
 		});
 		
-		balloon->runAction(detectLostBalloon);
+		balloon->runAction(RepeatForever::create(Sequence::create(detectLostBalloon, NULL)));
+		
 		addChild(balloon);
 	});
+
 	
-	auto spawnBalloons = RepeatForever::create(Sequence::create(spawnBalloon, DelayTime::create(1.5), NULL));
+	auto sequence = Sequence::create(spawnBalloon, DelayTime::create(1),
+									 spawnBalloon, DelayTime::create(0.5), NULL);
+	auto spawnBalloons = RepeatForever::create(sequence);
+	spawnBalloons->setTag(SPAWN_BALLOONS_ACTION_TAG);
+
 	runAction(spawnBalloons);
 }
 
@@ -122,5 +152,8 @@ void PlayScene::gameover()
 {
 	m_isGameRunning = false;
 	
+	stopActionByTag(SPAWN_BALLOONS_ACTION_TAG);
 	
+	// Possibly move to a highscore scene or something.
+	MessageBox(StringUtils::format("Your score is %d", m_score).c_str(), "Game Over");
 }

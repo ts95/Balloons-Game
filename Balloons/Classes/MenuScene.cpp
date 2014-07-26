@@ -42,7 +42,7 @@ bool MenuScene::init()
    MenuItemFont::setFontSize(ITEM_FONT_SIZE);
    
    auto *playMenuItem = MenuItemFont::create("Play", [](Ref *ref) {
-	  Director::getInstance()->pushScene(PlayScene::createScene());
+	  Director::getInstance()->replaceScene(PlayScene::createScene());
    });
    playMenuItem->setPosition(10, 50 + ITEM_FONT_SIZE);
    

@@ -21,7 +21,7 @@ public:
     
     CREATE_FUNC(PlayScene);
 
-	int getRisingSpeed();
+	float getRisingSpeed();
 	
 	int getLayers();
 	
@@ -29,6 +29,11 @@ public:
 	 * Increments the score.
 	 */
 	void incrementScore();
+	
+	/**
+	 * Resets the score.
+	 */
+	void resetScore();
 	
 	/**
 	 * Gets called when a balloon is popped.

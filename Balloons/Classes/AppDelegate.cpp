@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
 #include "MenuScene.h"
+#include "PlayScene.h"
 #include "SimpleAudioEngine.h"
 
 USING_NS_CC;
@@ -29,8 +30,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / FPS);
     
     auto scene = MenuScene::createScene();
-    director->runWithScene(scene);
+	director->runWithScene(scene);
 
+	CocosDenshion::SimpleAudioEngine::getInstance()->setBackgroundMusicVolume(0.2);
+	CocosDenshion::SimpleAudioEngine::getInstance()->setEffectsVolume(0.2);
+	
     return true;
 }
 

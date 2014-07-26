@@ -23,12 +23,12 @@
 class Balloon : public cocos2d::Sprite
 {
 public:
-    static Balloon * create(int risingSpeed, int layers);
+    static Balloon * create(float risingSpeed, int layers);
 	
 	/**
 	 * Returns the rate at which the balloon is rising upwards.
 	 */
-	int getRisingSpeed();
+	float getRisingSpeed();
 
 	/**
 	 * Returns the number of layers the balloon has.
@@ -49,14 +49,16 @@ private:
 				return BALLOON_BLUE_TEXTURE_PATH;
 			case 2:
 				return BALLOON_RED_TEXTURE_PATH;
-			default:
+			case 3:
 				return BALLOON_BLACK_TEXTURE_PATH;
 		}
+		return BALLOON_BLUE_TEXTURE_PATH;
 	}
 	
-    Balloon(int risingSpeed, int layers);
+    Balloon(float risingSpeed, int layers);
 	
-	int m_risingSpeed, m_layers;
+	float m_risingSpeed;
+	int m_layers;
 };
 
 #endif /* defined(__Balloons__Balloon__) */

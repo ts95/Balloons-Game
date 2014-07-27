@@ -29,6 +29,7 @@
 		292769721983002900F4A5E3 /* BalloonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2927696F1983002900F4A5E3 /* BalloonBlue.png */; };
 		292769731983002900F4A5E3 /* BalloonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 292769701983002900F4A5E3 /* BalloonRed.png */; };
 		2950D64919634BDD00CBBA07 /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2950D64719634BDD00CBBA07 /* MenuScene.cpp */; };
+		29B5F3DB1985698E00062C32 /* HighscoreScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29B5F3D91985698E00062C32 /* HighscoreScene.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -236,6 +237,8 @@
 		292769701983002900F4A5E3 /* BalloonRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BalloonRed.png; sourceTree = "<group>"; };
 		2950D64719634BDD00CBBA07 /* MenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 3; lastKnownFileType = sourcecode.cpp.cpp; name = MenuScene.cpp; path = ../Classes/MenuScene.cpp; sourceTree = "<group>"; };
 		2950D64819634BDD00CBBA07 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuScene.h; path = ../Classes/MenuScene.h; sourceTree = "<group>"; };
+		29B5F3D91985698E00062C32 /* HighscoreScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HighscoreScene.cpp; path = ../Classes/HighscoreScene.cpp; sourceTree = "<group>"; };
+		29B5F3DA1985698E00062C32 /* HighscoreScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighscoreScene.h; path = ../Classes/HighscoreScene.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -355,6 +358,8 @@
 				290E9AA01980002500C26C8A /* PlayScene.cpp */,
 				290E9AA11980002500C26C8A /* PlayScene.h */,
 				290E9AA3198003BF00C26C8A /* Util.h */,
+				29B5F3D91985698E00062C32 /* HighscoreScene.cpp */,
+				29B5F3DA1985698E00062C32 /* HighscoreScene.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -689,6 +694,7 @@
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				290E9A9D197FFC3800C26C8A /* Highscore.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				29B5F3DB1985698E00062C32 /* HighscoreScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

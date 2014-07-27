@@ -7,13 +7,15 @@
 //
 
 #include "PlayScene.h"
+#include "Highscore.h"
+#include "HighscoreScene.h"
 #include "Util.h"
 
 USING_NS_CC;
 
 #define SPAWN_BALLOONS_ACTION_TAG 0
 
-#define SCORE_LABEL "ScoreLabel"
+#define SCORE_LABEL_NAME "ScoreLabel"
 
 Scene * PlayScene::createScene()
 {
@@ -26,8 +28,8 @@ Scene * PlayScene::createScene()
 bool PlayScene::init()
 {
 	if (!LayerColor::initWithColor(Color4B(50, 50, 255, 255))) {
-        return false;
-    }
+		return false;
+	}
 	
 	setColor(Color3B(50, 50, 200));
 	
@@ -60,7 +62,7 @@ bool PlayScene::init()
 		->addEventListenerWithSceneGraphPriority(keyboardEventListener, this);
 	
 	auto scoreLabel = Label::create();
-	scoreLabel->setName(SCORE_LABEL);
+	scoreLabel->setName(SCORE_LABEL_NAME);
 	scoreLabel->setSystemFontSize(100);
 	scoreLabel->setPosition(Director::getInstance()->getVisibleSize().width / 2, Director::getInstance()->getVisibleSize().height - 100);
 	
@@ -73,11 +75,11 @@ bool PlayScene::init()
 
 float PlayScene::getRisingSpeed()
 {
-	float risingSpeed = (-0.01 * m_score) + 1.5;
+	float variance = Util::randomf() * 0.75;
+	float risingSpeed = (-0.01 * m_score) + 1.5 - variance;
 	if (risingSpeed < 0.6) {
 		risingSpeed = 0.6;
 	}
-	risingSpeed -= Util::random(0, 2) / 10.0;
 	return risingSpeed;
 }
 
@@ -97,14 +99,14 @@ int PlayScene::getLayers()
 void PlayScene::incrementScore()
 {
 	m_score++;
-	auto scoreLabel = (Label *) getChildByName(SCORE_LABEL);
+	auto scoreLabel = (Label *) getChildByName(SCORE_LABEL_NAME);
 	scoreLabel->setString(StringUtils::format("%d", m_score));
 }
 
 void PlayScene::resetScore()
 {
 	m_score = 0;
-	auto scoreLabel = (Label *) getChildByName(SCORE_LABEL);
+	auto scoreLabel = (Label *) getChildByName(SCORE_LABEL_NAME);
 	scoreLabel->setString(StringUtils::format("%d", m_score));
 }
 
@@ -139,7 +141,6 @@ void PlayScene::startGame()
 		addChild(balloon);
 	});
 
-	
 	auto sequence = Sequence::create(spawnBalloon, DelayTime::create(1),
 									 spawnBalloon, DelayTime::create(0.5), NULL);
 	auto spawnBalloons = RepeatForever::create(sequence);
@@ -154,6 +155,13 @@ void PlayScene::gameover()
 	
 	stopActionByTag(SPAWN_BALLOONS_ACTION_TAG);
 	
-	// Possibly move to a highscore scene or something.
-	MessageBox(StringUtils::format("Your score is %d", m_score).c_str(), "Game Over");
+	int score = m_score;
+	
+	resetScore();
+	
+	if (score > Highscore::getHighscore()) {
+		Highscore::setHighscore(score);
+	}
+	
+	Director::getInstance()->replaceScene(HighscoreScene::createScene(score));
 }

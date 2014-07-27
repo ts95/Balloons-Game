@@ -62,6 +62,7 @@ set(GAME_SRC
   Classes/Highscore.cpp
   Classes/MenuScene.cpp
   Classes/PlayScene.cpp
+  Classes/HighscoreScene.cpp
 )
 elseif ( WIN32 )
 set(GAME_SRC
@@ -73,6 +74,7 @@ set(GAME_SRC
   Classes/Highscore.cpp
   Classes/MenuScene.cpp
   Classes/PlayScene.cpp
+  Classes/HighscoreScene.cpp
 )
 endif()
 

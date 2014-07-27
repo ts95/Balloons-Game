@@ -34,12 +34,15 @@ Balloon::Balloon(float risingSpeed, int layers)
 	setScale(0.25);
 	
 	float x = Util::random(100, Director::getInstance()->getVisibleSize().width - 100);
-	Point initialPosition(x, -10);
+	Point initialPosition(x, -100);
 	setPosition(initialPosition);
+	
+	// Slow down balloons with more layers than 1
+	m_risingSpeed += layers - 1;
 	
 	setOpacity(0);
 	
-	runAction(FadeIn::create(0.5));
+	runAction(FadeIn::create(1));
 	
 	ccBezierConfig bezier;
 	bezier.controlPoint_1 = Vec2(-50, 150);

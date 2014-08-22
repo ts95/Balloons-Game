@@ -11,6 +11,21 @@
 
 USING_NS_CC;
 
+#define COUNTER_LABEL_NAME "CounterLabel"
+
+inline static std::string getTexturePath(int layers)
+{
+	switch (layers) {
+		case 1:
+			return BALLOON_RED_TEXTURE_PATH;
+		case 2:
+			return BALLOON_BLUE_TEXTURE_PATH;
+		case 3:
+			return BALLOON_BLACK_TEXTURE_PATH;
+	}
+	return BALLOON_BLUE_TEXTURE_PATH;
+}
+
 Balloon * Balloon::create(float risingSpeed, int layers)
 {
 	auto ret = new Balloon(risingSpeed, layers);
@@ -29,9 +44,18 @@ Balloon::Balloon(float risingSpeed, int layers)
 	
 	setName(BALLOON_TAG_NAME);
 	
-	initWithFile(Balloon::getTexturePath(m_layers));
+	initWithFile(getTexturePath(m_layers));
 	
 	setScale(0.25);
+	
+	// Add counter (counts down for each layer the balloon has)
+	Label *counterLabel = Label::create();
+	counterLabel->setName(COUNTER_LABEL_NAME);
+	counterLabel->setSystemFontSize(130);
+	counterLabel->setString(StringUtils::format("%d", m_layers));
+	counterLabel->setPosition(getSpriteFrame()->getRect().getMidX(),
+							  getSpriteFrame()->getRect().getMaxY() - 280);
+	addChild(counterLabel);
 	
 	float x = Util::random(100, Director::getInstance()->getVisibleSize().width - 100);
 	Point initialPosition(x, -100);
@@ -74,6 +98,8 @@ void Balloon::pop()
 	if (m_layers == 0) {
 		removeFromParent();
 	} else {
-		setTexture(Balloon::getTexturePath(m_layers));
+		setTexture(getTexturePath(m_layers));
+		Label *counterLabel = (Label *) getChildByName(COUNTER_LABEL_NAME);
+		counterLabel->setString(StringUtils::format("%d", m_layers));
 	}
 }

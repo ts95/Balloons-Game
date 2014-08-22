@@ -1,0 +1,362 @@
+TCocosDenshion iOS
+v6
+r1
+cCheck dependencies
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CocosDenshion.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDAudioManager.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDOpenALSupport.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/libCocosDenshion\ iOS.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c000000005349064A0000000000000198
+t1397294666
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531EA6FE00000000000003B4
+t1394517758
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531EA705000000000000019E
+t1394517765
+s414
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/CDAudioManager.o
+t1406509732
+s102752
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/CDOpenALSupport.o
+t1406509733
+s14504
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/CocosDenshion iOS.LinkFileList
+c0000000053D5A2A4000000000000038F
+t1406509732
+s911
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/CocosDenshion.o
+t1406509732
+s138692
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/SimpleAudioEngine.o
+t1406509734
+s74760
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+t1406509732
+s42124
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m
+c0000000053B0A82B000000000000787A
+t1404086315
+s30842
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m
+c0000000053B0A82B0000000000002AA4
+t1404086315
+s10916
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m
+c0000000053B0A82B000000000000CE44
+t1404086315
+s52804
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm
+c0000000053B0A82B0000000000001DF3
+t1404086315
+s7667
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m
+c0000000053B0A82B0000000000001663
+t1404086315
+s5731
+
+N/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/libCocosDenshion iOS.a
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescd768524da85b941^2ae08624da85b941^---0#1#1#--18"Check dependencies36"094F3F19-C526-4389-9C3B-10FFE1572B35-
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDAudioManager.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428202532.529615
+e428202532.959625
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/CDAudioManager.o
+x/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDConfig.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m302"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDAudioManager.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd9b38724da85b941^82aaf524da85b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m0000000000000000^4250"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDAudioManager.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/tonisucic/Documents/apache-ant-1.9.4/bin:/Users/tonisucic/Documents/ADT-Bundle/sdk/tools:/Users/tonisucic/Documents/ADT-Bundle/sdk/platform-tools:/Users/tonisucic/Documents/ADT-Bundle/sdk:/Users/tonisucic/Documents/android-ndk-r9d:/Users/tonisucic/.apportable/SDK/bin:/Users/tonisucic/cocos2d-x/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=100 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/.. -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/editor-support -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/platform/ios -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/include -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/x86_64 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios -MMD -MT dependencies -MF /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDAudioManager.d --serialize-diagnostics /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDAudioManager.dia -c /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.m -o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDAudioManager.o36"CF29220C-4FFD-4F91-A6A3-0041CD5B3549-
+b6CDEE206-0A5F-4DF0-A1DB-F97E1A9C0AF0
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDOpenALSupport.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428202532.897833
+e428202533.090149
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/CDOpenALSupport.o
+x/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDConfig.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m304"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDOpenALSupport.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler71ffe524da85b941^98141725da85b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m0000000000000000^4256"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDOpenALSupport.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/tonisucic/Documents/apache-ant-1.9.4/bin:/Users/tonisucic/Documents/ADT-Bundle/sdk/tools:/Users/tonisucic/Documents/ADT-Bundle/sdk/platform-tools:/Users/tonisucic/Documents/ADT-Bundle/sdk:/Users/tonisucic/Documents/android-ndk-r9d:/Users/tonisucic/.apportable/SDK/bin:/Users/tonisucic/cocos2d-x/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=100 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/.. -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/editor-support -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/platform/ios -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/include -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/x86_64 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios -MMD -MT dependencies -MF /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDOpenALSupport.d --serialize-diagnostics /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDOpenALSupport.dia -c /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.m -o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CDOpenALSupport.o36"382E6B7D-609E-4874-B425-81C2F4891640-
+b6CDEE206-0A5F-4DF0-A1DB-F97E1A9C0AF0
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CocosDenshion.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428202532.528548
+e428202532.897597
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/CocosDenshion.o
+x/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDConfig.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m300"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CocosDenshion.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere6918724da85b941^2ec9e524da85b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m0000000000000000^4244"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CocosDenshion.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/tonisucic/Documents/apache-ant-1.9.4/bin:/Users/tonisucic/Documents/ADT-Bundle/sdk/tools:/Users/tonisucic/Documents/ADT-Bundle/sdk/platform-tools:/Users/tonisucic/Documents/ADT-Bundle/sdk:/Users/tonisucic/Documents/android-ndk-r9d:/Users/tonisucic/.apportable/SDK/bin:/Users/tonisucic/cocos2d-x/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=100 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/.. -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/editor-support -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/platform/ios -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/include -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/x86_64 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios -MMD -MT dependencies -MF /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CocosDenshion.d --serialize-diagnostics /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CocosDenshion.dia -c /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.m -o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CocosDenshion.o36"C386BCD9-362E-479A-ADB5-D621DCEF20AF-
+b6CDEE206-0A5F-4DF0-A1DB-F97E1A9C0AF0
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428202532.528569
+e428202534.612941
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/SimpleAudioEngine.o
+x/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/include/SimpleAudioEngine.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/include/Export.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDConfig.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/cocos2d.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/ccConfig.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCRef.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/ios/CCPlatformDefine.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCRefPtr.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/ccMacros.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCConsole.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/ios/CCStdC.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCVector.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCMap.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCNS.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/CCGeometry.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/CCMath.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Vec2.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/CCMathBase.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Vec2.inl
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Vec3.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Vec3.inl
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Mat4.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Vec4.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Vec4.inl
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Mat4.inl
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Quaternion.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/Quaternion.inl
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCData.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCValue.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/ccTypes.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/ios/CCGL.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCConfiguration.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCDirector.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCNode.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventDispatcher.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventListener.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEvent.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCScriptSupport.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/CCCommon.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCTouch.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventTouch.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventKeyboard.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCProtocols.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCTexture2D.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/CCAffineTransform.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccGLStateCache.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCQuadCommand.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCRenderCommand.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCGLProgramState.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCRenderCommandPool.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCScheduler.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/uthash.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/base64.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/ZipUtils.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCProfiling.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/ccUTF8.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCUserDefault.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCIMEDelegate.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCIMEDispatcher.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/ccUtils.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventType.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventListenerTouch.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventListenerKeyboard.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventListenerMouse.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventMouse.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventAcceleration.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventListenerAcceleration.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventCustom.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventListenerCustom.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventFocus.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCEventListenerFocus.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/MathUtil.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/MathUtil.inl
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/math/CCVertex.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCAction.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCAnimation.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionManager.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionEase.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionTween.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCCustomCommand.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCLabel.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCTextureAtlas.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCBatchCommand.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCGLProgram.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCFontFNT.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCFont.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCLayer.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCScene.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTransition.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCMenu.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCGroupCommand.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCSprite.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/CCImage.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCString.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCArray.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/ccCArray.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCGrabber.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCGrid.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCRenderer.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCGLProgramCache.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShaders.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCTextureCache.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/CCDevice.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/CCFileUtils.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/CCSAXParser.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/CCThread.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/ios/CCApplication.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/CCApplicationProtocol.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/ios/CCGLView.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/platform/CCGLViewProtocol.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCComponent.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/3d/CCSprite3D.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/CCMeshCommand.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/3d/CCMesh.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/3d/CCBundle3DData.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCDictionary.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCSet.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCInteger.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCFloat.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCDouble.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCBool.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCNotificationCenter.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/deprecated/CCDeprecated.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm311"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler4f918724da85b941^d5e99c26da85b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm0000000000000000^4346"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/tonisucic/Documents/apache-ant-1.9.4/bin:/Users/tonisucic/Documents/ADT-Bundle/sdk/tools:/Users/tonisucic/Documents/ADT-Bundle/sdk/platform-tools:/Users/tonisucic/Documents/ADT-Bundle/sdk:/Users/tonisucic/Documents/android-ndk-r9d:/Users/tonisucic/.apportable/SDK/bin:/Users/tonisucic/cocos2d-x/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=100 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/.. -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/editor-support -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/platform/ios -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/include -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/x86_64 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios -MMD -MT dependencies -MF /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine.d --serialize-diagnostics /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine.dia -c /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine.mm -o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine.o36"C4229A9A-3B2D-497E-90A9-F6C0BE085DF5-
+b6CDEE206-0A5F-4DF0-A1DB-F97E1A9C0AF0
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428202532.528570
+e428202532.904832
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+x/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDAudioManager.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CocosDenshion.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDConfig.h
+d/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m318"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5ef68724da85b941^33a3e724da85b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m0000000000000000^4298"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o [1m/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/tonisucic/Documents/apache-ant-1.9.4/bin:/Users/tonisucic/Documents/ADT-Bundle/sdk/tools:/Users/tonisucic/Documents/ADT-Bundle/sdk/platform-tools:/Users/tonisucic/Documents/ADT-Bundle/sdk:/Users/tonisucic/Documents/android-ndk-r9d:/Users/tonisucic/.apportable/SDK/bin:/Users/tonisucic/cocos2d-x/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=100 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/.. -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/editor-support -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../external -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/platform/ios -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/include -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/x86_64 -I/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios -MMD -MT dependencies -MF /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.d --serialize-diagnostics /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.dia -c /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/audio/ios/SimpleAudioEngine_objc.m -o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o36"33744C25-F567-4B7C-B92D-7E1B33584E21-
+b6CDEE206-0A5F-4DF0-A1DB-F97E1A9C0AF0
+
+CLibtool /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/libCocosDenshion\ iOS.a normal x86_64
+s428202534.614403
+e428202534.626045
+r1
+xLibtool
+x/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/libCocosDenshion iOS.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"[1mLibtool[0m /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/libCocosDenshion\ iOS.a normal x86_64121"[1mLibtool[0m /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/libCocosDenshion\ iOS.a normal x86_6484649d26da85b941^f244a026da85b941^---0#0#1#--1449"[1mLibtool[0m /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/libCocosDenshion\ iOS.a normal x86_64    cd /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build    export IPHONEOS_DEPLOYMENT_TARGET=5.1.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/tonisucic/Documents/apache-ant-1.9.4/bin:/Users/tonisucic/Documents/ADT-Bundle/sdk/tools:/Users/tonisucic/Documents/ADT-Bundle/sdk/platform-tools:/Users/tonisucic/Documents/ADT-Bundle/sdk:/Users/tonisucic/Documents/android-ndk-r9d:/Users/tonisucic/.apportable/SDK/bin:/Users/tonisucic/cocos2d-x/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios -filelist /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/x86_64/CocosDenshion\ iOS.LinkFileList -o /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/publish/ios/libCocosDenshion\ iOS.a36"F67CB2A7-6D40-4D41-B019-21F0CE7A94E4-
+b6CDEE206-0A5F-4DF0-A1DB-F97E1A9C0AF0
+

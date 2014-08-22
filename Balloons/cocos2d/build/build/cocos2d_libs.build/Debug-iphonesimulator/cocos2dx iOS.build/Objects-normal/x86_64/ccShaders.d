@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShaders.cpp \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/renderer/ccShaders.h \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/platform/ios/CCGL.h \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/base/CCPlatformConfig.h \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/base/CCPlatformMacros.h \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/base/ccConfig.h \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/build/../cocos/platform/ios/CCPlatformDefine.h \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_Position_uColor.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_Position_uColor.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionColor.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionColor.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTexture.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTexture.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTextureA8Color.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTextureA8Color.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTextureColor.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTextureColor.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTextureColor_noMVP.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTextureColor_noMVP.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTextureColorAlphaTest.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTexture_uColor.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionTexture_uColor.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionColorLengthTexture.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_PositionColorLengthTexture.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_Label.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_Label_df.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_Label_df_glow.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_Label_normal.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_Label_outline.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_3D_PositionTex.vert \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_3D_Color.frag \
+  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/cocos2d/cocos/renderer/ccShader_3D_ColorTex.frag

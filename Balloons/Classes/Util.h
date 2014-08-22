@@ -28,6 +28,11 @@ namespace Util
 		return rand() / (float) RAND_MAX;
 	}
 	
+	inline bool randomb()
+	{
+		return randomf() > 0.5;
+	}
+	
 	inline int random(int low, int high)
 	{
 		return (int)(randomf() * (high - low + 1) + low);

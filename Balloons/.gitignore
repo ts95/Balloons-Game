@@ -1,0 +1,24 @@
+# C++
+*.slo
+*.lo
+*.o
+*.obj
+
+# dynamic libs
+*.so
+*.dylib
+*.dll
+
+# compiled static libs
+*.lai
+*.la
+*.a
+*.lib
+
+# xcode
+*.pbxproj
+
+# executables
+*.exe
+*.out
+*.app

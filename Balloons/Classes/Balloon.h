@@ -42,19 +42,6 @@ public:
 	void pop();
 
 private:
-	inline static std::string getTexturePath(int layers)
-	{
-		switch (layers) {
-			case 1:
-				return BALLOON_BLUE_TEXTURE_PATH;
-			case 2:
-				return BALLOON_RED_TEXTURE_PATH;
-			case 3:
-				return BALLOON_BLACK_TEXTURE_PATH;
-		}
-		return BALLOON_BLUE_TEXTURE_PATH;
-	}
-	
     Balloon(float risingSpeed, int layers);
 	
 	float m_risingSpeed;

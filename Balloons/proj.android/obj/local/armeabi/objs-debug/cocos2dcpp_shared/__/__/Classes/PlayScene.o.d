@@ -314,6 +314,7 @@ obj/local/armeabi/objs-debug/cocos2dcpp_shared/__/__/Classes/PlayScene.o: \
  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/proj.android/../cocos2d/cocos/./deprecated/CCDeprecated.h \
  jni/../../Classes/Balloon.h \
  /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/proj.android/../cocos2d/cocos/audio/android/../include/SimpleAudioEngine.h \
+ jni/../../Classes/Highscore.h jni/../../Classes/HighscoreScene.h \
  jni/../../Classes/Util.h
 
 jni/../../Classes/PlayScene.h:
@@ -945,5 +946,9 @@ jni/../../Classes/PlayScene.h:
 jni/../../Classes/Balloon.h:
 
 /Users/tonisucic/Desktop/gamedev/Balloons-Game/Balloons/proj.android/../cocos2d/cocos/audio/android/../include/SimpleAudioEngine.h:
+
+jni/../../Classes/Highscore.h:
+
+jni/../../Classes/HighscoreScene.h:
 
 jni/../../Classes/Util.h:

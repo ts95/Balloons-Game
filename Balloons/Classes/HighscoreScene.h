@@ -18,7 +18,7 @@ public:
 	static HighscoreScene *create(int score);
 	
 	HighscoreScene(int score);
-	
+		
 	virtual bool init();
 	
 private:

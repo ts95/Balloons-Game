@@ -42,6 +42,9 @@ bool PlayScene::init()
 				if (node->getBoundingBox().containsPoint(touch->getLocation())) {
 					balloonPopped((Balloon *)node);
 					return true;
+				} else {
+					gameover();
+					return true;
 				}
 				return false;
 			});
@@ -64,7 +67,8 @@ bool PlayScene::init()
 	auto scoreLabel = Label::create();
 	scoreLabel->setName(SCORE_LABEL_NAME);
 	scoreLabel->setSystemFontSize(100);
-	scoreLabel->setPosition(Director::getInstance()->getVisibleSize().width / 2, Director::getInstance()->getVisibleSize().height - 100);
+	scoreLabel->setPosition(Director::getInstance()->getVisibleSize().width / 2,
+							Director::getInstance()->getVisibleSize().height - 100);
 	
 	addChild(scoreLabel);
 	
@@ -75,10 +79,11 @@ bool PlayScene::init()
 
 float PlayScene::getRisingSpeed()
 {
-	float variance = Util::randomf() * 0.75;
-	float risingSpeed = (-0.01 * m_score) + 1.5 - variance;
-	if (risingSpeed < 0.6) {
-		risingSpeed = 0.6;
+	float base = 1.5;
+	float variance = Util::randomf() * 0.5;
+	float risingSpeed = (-0.005 * m_score) + base - variance;
+	if (risingSpeed < 0.55) {
+		risingSpeed = 0.55;
 	}
 	return risingSpeed;
 }
@@ -86,13 +91,11 @@ float PlayScene::getRisingSpeed()
 int PlayScene::getLayers()
 {
 	int layers = 1;
-	
 	if (m_score >= 20) {
 		layers = Util::random(1, 3);
 	} else if (m_score >= 10) {
 		layers = Util::random(1, 2);
 	}
-	
 	return layers;
 }
 

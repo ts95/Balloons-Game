@@ -57,9 +57,9 @@ bool HighscoreScene::init()
 	highscoreLabel->setSystemFontSize(80);
 	highscoreLabel->setString(StringUtils::format("Highscore %d", Highscore::getHighscore()));
 	addChild(highscoreLabel);
-	
+
 	auto menu = Menu::create();
-	
+
 	MenuItemFont::setFontSize(100);
 	
 	auto playAgainMenuItem = MenuItemFont::create("Play again", [](Ref *ref) {
